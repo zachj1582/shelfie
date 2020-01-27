@@ -30,9 +30,7 @@ class Form extends Component {
   };
 
   componentDidUpdate=(prevProps)=>{
-      console.log(prevProps.editing)
-      console.log(this.props.editing)
-      if (prevProps.editing !== this.props.editing)
+      if (!this.props.match.params.id && prevProps.match.params !== this.props.match.params)
       this.setState({
           id: 0,
           name: '',
@@ -41,9 +39,6 @@ class Form extends Component {
           editing: false
       })
   }
-
-//   componentDidUpdate=(prevprops)
-  
 
   handleChange = e => {
     const { name, value } = e.target;
