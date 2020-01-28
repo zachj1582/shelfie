@@ -10,9 +10,9 @@ class Header extends Component {
   render() {
     return (
       <header id='header'>
-        <a>Logo Maybe</a>
-        <Link to='/'><button>Dashboard</button></Link>
-        <Link to='/form'><button>Add Inventory</button></Link>
+        <a id='logo'>Logo Maybe</a>
+        <Link to='/'><button id='head-content'>Dashboard</button></Link>
+        <Link to='/form'><button id='head-content'>Add Inventory</button></Link>
       </header>
     );
   }

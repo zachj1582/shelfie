@@ -1,8 +1,119 @@
-.App {
-  text-align: center;
-}
 
 #header{
   background-color: #ab2a19;
   height: 10vh;
+  display: flex;
+  align-content: center;
+  justify-content: start;
+  align-items: center;
+  padding-left: 40px;
+}
+#head-content{
+  background-color: #ed6b5a;
+  border-radius: 3px;
+  margin: 0px 7px;
+  font-weight: bold;
+  border: 0;
+  height: 25px;
+}
+
+#logo{
+  text-transform: uppercase;
+  font-size: large;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+#content-slides{
+  background-color: #d34735;
+  height: 300px;
+  width: 600px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 14px;
+}
+
+#pic{
+  height: 250px;
+  width: 350px;
+  padding-top: 1px;
+  padding-left: 20px;
+}
+
+#name-price{
+  width: 230px;
+  height: 200px;
+  padding-left: 8px;
+}
+
+#info{
+  margin: 0;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+#buttons{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 8px;
+  padding-right: 18px;
+}
+
+#button{
+  height: 30px;
+  border-radius: 5px;
+  background-color: #3ad886;
+  font-weight: bold;
+  font-size: 12px;
+  border: 0;
+}
+
+#main{
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  align-items: center;
+}
+
+#form{
+  background-color: #3ad886;
+  padding: 10px 8px;
+  height: 500px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 80px;
+  border-radius: 10px;
+}
+
+#img{
+  width: 300px;
+}
+
+#inputs{
+  width: 380px;
+}
+
+#input{
+  width: 380px;
+}
+
+#form-buttons{
+  width: 380px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+#form-button{
+  height: 30px;
+  border-radius: 5px;
+  background-color: #ed6b5a;
+  border: 0;
 }
